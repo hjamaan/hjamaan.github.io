@@ -185,6 +185,10 @@ blockquote {
   border-bottom: none;
 }
 
+.pub-list .dataset-links {
+  margin-bottom: 0;
+}
+
 .pub-title {
   font-weight: bold;
   display: block;
