@@ -324,6 +324,7 @@ blockquote {
 .dataset-links {
   display: flex;
   gap: 0.6em;
+  margin-top: 0.4em;
   margin-bottom: 0.75em;
 }
 
@@ -643,9 +644,19 @@ blockquote {
 @media (max-width: 650px) {
   .photo-row {
     flex-direction: column;
+    gap: 8px;
   }
   .photo-mosaic__item {
+    flex-basis: auto !important;
     flex-grow: 1 !important;
+    width: 100%;
+  }
+  .photo-mosaic__item img {
+    width: 100%;
+    height: auto;
+  }
+  .video-preview {
+    max-width: 100%;
   }
 }
 
