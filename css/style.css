@@ -332,7 +332,7 @@ blockquote {
 
 .dataset-card__header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 1.1em;
   margin-bottom: 0.5em;
 }
@@ -347,10 +347,6 @@ blockquote {
 .dataset-card__meta {
   flex: 1;
   min-width: 0;
-}
-
-.dataset-card__meta .dataset-title {
-  margin-top: 0.1em;
 }
 
 .dataset-list {
