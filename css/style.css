@@ -347,6 +347,7 @@ blockquote {
 .dataset-card__meta {
   flex: 1;
   min-width: 0;
+  padding-top: 0.4em;
 }
 
 .dataset-list {
